@@ -75,7 +75,7 @@ The random forest algorithm is an extension of the bagging method as it utilizes
 
 # 5 Investigation
 
-See investigation.ipynb for details
+See investigate.ipynb for details
 
 # 6 implementation
 
