@@ -82,4 +82,9 @@ See investigate.ipynb for details
 See random_forest.ipynb for details
 
 # 7 Technical Environments
-I run these 2 files in AWS EC2 Instance type, whose type is t2.micro with 1 vCPU and 1 GiB Memory 
+Run these 2 files in AWS EC2 Instance type, whose type is t2.micro with 1 vCPU and 1 GiB Memory 
+
+# 8 Update
+Run these 2 files in AWS SageMaker with 2 vCPU and 4 GiB
+
+Try to use multi-process package to accelerate but not work.
