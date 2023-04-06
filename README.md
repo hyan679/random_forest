@@ -41,15 +41,17 @@ Each training and test example is assigned to one of the following labels:
 
 Datasets obtained from different sources may have slightly different structures or values.
 
-In the data set provided by the lecture, each image has been flattened from 2D to 1D, which means each image has become a vector of 1*784. 
+~~In the data set provided by the lecture, each image has been flattened from 2D to 1D, which means each image has become a vector of 1*784. ~~
 
-Each pixel-value is between 0 and 1. 
+I download the data from github again to increase the data set
 
-The train data includes 30,000 images, takes up 90MB, so the shape of train data is (30000, 784)
+Each pixel-value is between 0 and ~~1~~255. 
 
-The train label inclueds 30,000 labels related to train data, so the the shape of label data is (30000, 1)
+The train data includes ~~30,000~~60000 images, ~~takes up 90MB,~~ so the shape of train data is ~~(30000, 784)~~(60000, 784)
 
-The test data and test label share the same patten wth train data set, whose shape is (2000, 784) and (2000, 1)
+The train label inclueds ~~30,000~~60000 labels related to train data, so the the shape of label data is ~~(30000, 1)~~(60000, 1)
+
+The test data and test label share the same patten wth train data set, whose shape is ~~(2000, 784)~~(10000, 784) and ~~(2000, 1)~~(10000, 1)
 
 # 3 Goal
 
